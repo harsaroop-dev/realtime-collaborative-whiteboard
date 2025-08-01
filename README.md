@@ -33,14 +33,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installation & Setup
 
-1.  **Clone the repository:**
-
-    ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
-
-2.  **Set up Supabase:**
+1.  **Set up Supabase:**
 
     - Go to [Supabase](https://supabase.com/) and create a new project.
     - Navigate to the **SQL Editor** in your Supabase project dashboard.
@@ -77,7 +70,7 @@ To get a local copy up and running, follow these simple steps.
       ALTER PUBLICATION supabase_realtime ADD TABLE userswhiteboards;
       ```
 
-3.  **Set up Environment Variables:**
+2.  **Set up Environment Variables:**
 
     - Create a file named `.env` in the root of your project.
     - Add your Supabase Project URL and Anon Key to this file. You can find these in your Supabase project's **Settings > API**.
@@ -88,7 +81,7 @@ To get a local copy up and running, follow these simple steps.
       SUPABASE_ANON_KEY="your-supabase-anon-key"
       ```
 
-4.  **Run the App:**
+3.  **Run the App:**
     ```sh
     flutter pub get
     flutter run
